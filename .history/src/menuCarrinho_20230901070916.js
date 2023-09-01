@@ -36,9 +36,7 @@ export function adicionarAoCarrinho(idProduto) {
       class="h-24 rounded-lg"
     />
     <div class="py-2">
-      <p class="text-slate-900 text-sm">  
         ${produto.nome}
-      </p>  
       <p class="text-slate-400 text-xs">Tamanho M</p>
       <p class="text-green-700 text-lg">$${produto.preco}</p>
     </div>
