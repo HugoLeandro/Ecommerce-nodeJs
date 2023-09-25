@@ -12,9 +12,9 @@ export function renderizarCatalogo() {
       <p class="text-sm">${produtoCatalogo.marca}</p>
       <p class="text-sm">${produtoCatalogo.nome}</p>
       <p class="text-sm">$${produtoCatalogo.preco}</p>
-      <button id='adicionar-${produtoCatalogo.id}' class="bg-slate-950 hover:bg-slate-700 text-slate-200">
-      <i class="fa-solid fa-cart-plus">
-      </i>
+      <button id='adicionar-${produtoCatalogo.id}' class="bg-slate-950 hover:bg-slate-700 text-slate-200 flex flex-center ">
+      <p >Adicionar</p>
+      <i class="fa-solid fa-cart-plus"></i>
       </button>
       </div>`;
       

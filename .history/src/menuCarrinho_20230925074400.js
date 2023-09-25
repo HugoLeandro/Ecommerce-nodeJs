@@ -38,7 +38,7 @@ function decrementarQuantidadeProduto(idProduto) {
     return;
   }
   idsProdutoCarrinhoComQuantidade[idProduto]--;
-  atualizarPrecoCarrinho()
+  atualizarPrecoCarrinho();
   atualizarInformacaoQuantidade(idProduto);
 }
 
@@ -127,9 +127,7 @@ export function adicionarAoCarrinho(idProduto) {
   }
   idsProdutoCarrinhoComQuantidade[idProduto] = 1;
   desenharProdutoNoCarrinho(idProduto);
-  atualizarPrecoCarrinho();
 }
-
 
 export function atualizarPrecoCarrinho() {
   const precoCarrinho = document.getElementById("preco-total");

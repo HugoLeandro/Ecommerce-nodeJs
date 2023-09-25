@@ -127,7 +127,7 @@ export function adicionarAoCarrinho(idProduto) {
   }
   idsProdutoCarrinhoComQuantidade[idProduto] = 1;
   desenharProdutoNoCarrinho(idProduto);
-  atualizarPrecoCarrinho();
+  
 }
 
 
